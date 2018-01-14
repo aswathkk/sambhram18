@@ -1,0 +1,148 @@
+{
+  "cse": [
+    {
+      "title": "NFS",
+      "short_desc": "Gaming",
+      "rules": [
+        "Individual event.",
+        "No extra accessories like joystick or headset will be provided."
+      ],
+      "staff_coordinator": [
+        {"name": "Mr Rizwan Sheikh", "phone": "9481206258"}
+      ],
+      "student_coordinator": [
+        {"name": "Abhishek A", "phone": "9539292601"},
+        {"name": "Abhijith", "phone": "8904206468"}
+      ],
+      "img": "default.jpg",
+      "day": "Day 1",
+      "time": "10:00 AM"
+    },
+    {
+      "title": "Counter Strike",
+      "short_desc": "Gaming",
+      "rules": [
+        "5 make a team",
+        "No extra accessories like joystick or headset will be provided.",
+        "No cheat codes!"
+      ],
+      "staff_coordinator": [
+        {"name": "Mr Sadanand", "phone": "9591964222"}
+      ],
+      "student_coordinator": [
+        {"name": "Rohan Kumar", "phone": "9449890174"},
+        {"name": "Prithvi", "phone": "9591579415"}
+      ],
+      "img": "default.jpg",
+      "day": "Day 1",
+      "time": "10:00 AM"
+    },
+    {
+      "title": "TechPresento",
+      "short_desc": "Technical Paper Presentation",
+      "rules": [
+        "3 make a team.",
+        "Time limit 8 + 2 mins.",
+        "Paper to be submitted in IEEE format and mailed to SDITCSIS18@GMAIL.COM on or before 10th feb 2018.",
+        "The mail must include the title, team name and college name.",
+        "Confirmations will be sent by 15th feb 2018.",
+        "Spot registrations are not allowed."
+      ],
+      "staff_coordinator": [
+        {"name": "Mrs Kavyashree", "phone": "9986302114"},
+        {"name": "Mrs Priya George", "phone": "8281965694"}
+      ],
+      "student_coordinator": [
+        {"name": "Ms Reshali Crystal", "phone": "7760381712"},
+        {"name": "Ms Pavithra S", "phone": "9686594297"}
+      ],
+      "img": "default.jpg",
+      "day": "Day 1",
+      "time": "10:00 AM"
+    },
+    {
+      "title": "Quizholic",
+      "short_desc": "Technical Quiz",
+      "rules": [
+        "3 make a team.",
+        "Prelims will be conducted.",
+        "No gadgets are allowed.",
+        "Judges's decision will be final."
+      ],
+      "staff_coordinator": [
+        {"name": "Mrs Reshma", "phone": "9481466542"}
+      ],
+      "student_coordinator": [
+        {"name": "Sneha Naik", "phone": "9980373087"},
+        {"name": "Sneha Vittal", "phone": "7760422690"}
+      ],
+      "img": "default.jpg",
+      "day": "Day 1",
+      "time": "10:00 AM"
+    },
+    {
+      "title": "Web Masters",
+      "short_desc": "Web Development",
+      "rules": [
+        "2 make a team.",
+        "Necessary hardware and software will be provided.",
+        "Libraries & tools : Photoshop, jQuery, Bootstrap, AngularJs, Notepad++, Images",
+        "Time duration : 2Hrs",
+        "No gadgets are allowed.",
+        "Prelims will be conducted if necessary.",
+        "Judge's decision will be final."
+      ],
+      "staff_coordinator": [
+        {"name": "Mr Rohan D S", "phone": "9535645357"}
+      ],
+      "student_coordinator": [
+        {"name": "Aswath K", "phone": "8075101002"},
+        {"name": "Mudassir H", "phone": "9481563548"}
+      ],
+      "img": "default.jpg",
+      "day": "Day 1",
+      "time": "10:00 AM"
+    },
+    {
+      "title": "Spycoder",
+      "short_desc": "Technical Scavenger Hunt",
+      "rules": [
+        "2 make a team.",
+        "No gadgets are allowed.",
+        "Prelims will be conducted if necessary.",
+        "Judge's Decision will be final."
+      ],
+      "staff_coordinator": [
+        {"name": "Mr Shrikanth", "phone": "9880410030"}
+      ],
+      "student_coordinator": [
+        {"name": "Kavya N M", "phone": "99450060816"},
+        {"name": "Steffi Priya D'souza", "phone": "7411898270"}
+      ],
+      "img": "default.jpg",
+      "day": "Day 1",
+      "time": "10:00 AM"
+    },
+    {
+      "title": "Grapix",
+      "short_desc": "Graphic Designing",
+      "rules": [
+        "2 make a team.",
+        "Necessary softwares will be provided.",
+        "No gadgets are allowed.",
+        "Time duration 1.5 Hrs",
+        "Judge's decision will be final."
+      ],
+      "staff_coordinator": [
+        {"name": "Ms Raksha P", "phone": "8197930538"}
+      ],
+      "student_coordinator": [
+        {"name": "Gautham R Poojary", "phone": "8792404045"},
+        {"name": "Gagan", "phone": "8762921679"}
+      ],
+      "img": "default.jpg",
+      "day": "Day 1",
+      "time": "10:00 AM"
+    }
+  ]
+}
