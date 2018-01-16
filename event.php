@@ -79,7 +79,7 @@
         <div class="row">
         
           <div class="col-sm-12">
-            <h2 class="section-title"><span>CSE</span> <span>E</span>vents</h2>
+            <h2 class="section-title"><span>E</span>vents</h2>
           </div>
 <?php foreach ($events as $i => $event) { ?>
           <div class="col-md-4 col-sm-6">

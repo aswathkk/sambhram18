@@ -27,7 +27,10 @@ $(document).ready(function() {
     var event = events[type][num];
 
     $eventTitle.html(event.title);
-    $eventSub.html('(' + event.short_desc + ')');
+    if(event.short_desc)
+      $eventSub.html('(' + event.short_desc + ')');
+    else
+      $eventSub.html('');
     $eventImg.attr('src', 'img/' + event.img);
 
     var rules = '';
@@ -38,13 +41,19 @@ $(document).ready(function() {
 
     var staff = '';
     for(var i = 0; i < event.staff_coordinator.length; i++) {
-      staff += '<li>' + event.staff_coordinator[i].name + ' (' + event.staff_coordinator[i].phone + ')' + '</li>';
+      staff += '<li>' + event.staff_coordinator[i].name;
+      if(event.staff_coordinator[i].phone)
+        staff += ' (' + event.staff_coordinator[i].phone + ')';
+      staff += '</li>';
     }
     $eventStaff.html(staff);
 
     var stud = '';
     for(var i = 0; i < event.student_coordinator.length; i++) {
-      stud += '<li>' + event.student_coordinator[i].name + ' (' + event.student_coordinator[i].phone + ')' + '</li>';
+      stud += '<li>' + event.student_coordinator[i].name;
+      if(event.student_coordinator[i].phone)
+        stud += ' (' + event.student_coordinator[i].phone + ')';
+      stud += '</li>';
     }
     $eventStud.html(stud);
 
