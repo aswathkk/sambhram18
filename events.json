@@ -1,557 +1,771 @@
 {
-  "cse": [
-    {
-      "title": "NFS",
-      "short_desc": "Gaming",
-      "rules": [
-        "Individual event.",
-        "No extra accessories like joystick or headset will be provided."
-      ],
-      "staff_coordinator": [
-        {"name": "Mr Rizwan Sheikh", "phone": "9481206258"}
-      ],
-      "student_coordinator": [
-        {"name": "Abhishek A", "phone": "9539292601"},
-        {"name": "Abhijith", "phone": "8904206468"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Counter Strike",
-      "short_desc": "Gaming",
-      "rules": [
-        "5 make a team.",
-        "No extra accessories like joystick or headset will be provided.",
-        "No cheat codes!"
-      ],
-      "staff_coordinator": [
-        {"name": "Mr Sadanand", "phone": "9591964222"}
-      ],
-      "student_coordinator": [
-        {"name": "Rohan Kumar", "phone": "9449890174"},
-        {"name": "Prithvi", "phone": "9591579415"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "TechPresento",
-      "short_desc": "Technical Paper Presentation",
-      "rules": [
-        "3 make a team.",
-        "Time limit 8 + 2 mins.",
-        "Paper to be submitted in IEEE format and mailed to SDITCSIS18@GMAIL.COM on or before 10th feb 2018.",
-        "The mail must include the title, team name and college name.",
-        "Confirmations will be sent by 15th feb 2018.",
-        "Spot registrations are not allowed."
-      ],
-      "staff_coordinator": [
-        {"name": "Mrs Kavyashree", "phone": "9986302114"},
-        {"name": "Mrs Priya George", "phone": "8281965694"}
-      ],
-      "student_coordinator": [
-        {"name": "Ms Reshali Crystal", "phone": "7760381712"},
-        {"name": "Ms Pavithra S", "phone": "9686594297"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Quizholic",
-      "short_desc": "Technical Quiz",
-      "rules": [
-        "3 make a team.",
-        "Prelims will be conducted.",
-        "No gadgets are allowed.",
-        "Judges's decision will be final."
-      ],
-      "staff_coordinator": [
-        {"name": "Mrs Reshma", "phone": "9481466542"}
-      ],
-      "student_coordinator": [
-        {"name": "Sneha Naik", "phone": "9980372087"},
-        {"name": "Sneha Vittal", "phone": "7760422690"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Web Masters",
-      "short_desc": "Web Development",
-      "rules": [
-        "2 make a team.",
-        "Necessary hardware and software will be provided.",
-        "Libraries & tools : Photoshop, jQuery, Bootstrap, AngularJs, Notepad++, Images",
-        "Time duration : 2Hrs",
-        "No gadgets are allowed.",
-        "Prelims will be conducted if necessary.",
-        "Judge's decision will be final."
-      ],
-      "staff_coordinator": [
-        {"name": "Mr Rohan D S", "phone": "9535645357"}
-      ],
-      "student_coordinator": [
-        {"name": "Aswath K", "phone": "8075101002"},
-        {"name": "Mudassir H", "phone": "9481563548"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Spycoder",
-      "short_desc": "Technical Scavenger Hunt",
-      "rules": [
-        "2 make a team.",
-        "No gadgets are allowed.",
-        "Prelims will be conducted if necessary.",
-        "Judge's Decision will be final."
-      ],
-      "staff_coordinator": [
-        {"name": "Mr Shrikanth", "phone": "9880410030"}
-      ],
-      "student_coordinator": [
-        {"name": "Kavya N M", "phone": "9945060816"},
-        {"name": "Steffi Priya D'souza", "phone": "7411898270"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Grapix",
-      "short_desc": "Graphic Designing",
-      "rules": [
-        "2 make a team.",
-        "Necessary softwares will be provided.",
-        "No gadgets are allowed.",
-        "Time duration 1.5 Hrs",
-        "Judge's decision will be final."
-      ],
-      "staff_coordinator": [
-        {"name": "Ms Raksha P", "phone": "8197930538"}
-      ],
-      "student_coordinator": [
-        {"name": "Gautham R Poojary", "phone": "8792404045"},
-        {"name": "Gagan", "phone": "8762921679"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    }
-  ],
-  "cv": [
-    {
-      "title": "Techkrithi",
-      "short_desc": "Technical Paper Presentation",
-      "rules": [
-        "2 members make a team.",
-        "Duration 8 + 2 minutes.",
-        "Topic: Recent trends in civil engineering",
-        "Papers have to be submitted in IEEE format"
-      ],
-      "staff_coordinator": [
-        {"name": "Ms Sowmya S M"}
-      ],
-      "student_coordinator": [
-        {"name": "Mr Justin Daryl D'souza", "phone": "8618369835"},
-        {"name": "Ms Chandana", "phone": "8762787011"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Bridge Making",
-      "short_desc": "",
-      "rules": [
-        "2 members make a team.",
-        "Time given is 1 Hour 30 minutes.",
-        "Bridge making materials will be provided.",
-        "Truss is compulsory.",
-        "Judge's decision will be final."
-      ],
-      "staff_coordinator": [
-        {"name": "Mrs Laxmi Baliga"}
-      ],
-      "student_coordinator": [
-        {"name": "Ms Vanditha", "phone": "7022083801"},
-        {"name": "Ms Vijayalaxmi", "phone": "9538132050"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Center line marking",
-      "short_desc": "",
-      "rules": [
-        "3 members make a team.",
-        "1st round: Aptitude test (Half an hour).",
-        "2nd round: Center line marking in field (3 Hours).",
-        "All the required materials will be provided and no extra materials must be brought by the participants except calculator.",
-        "Decision will be based on accuracy and timing.",
-        "Judge's decision will be final."
-      ],
-      "staff_coordinator": [
-        {"name": "Mr Vignesh"}
-      ],
-      "student_coordinator": [
-        {"name": "Mr Vishal", "phone": "8431082929"},
-        {"name": "Ms Kavitha", "phone": "8152956077"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Mind Tickler",
-      "short_desc": "Technical Quiz",
-      "rules": [
-        "Preliminary round will be conducted.",
-        "Questions are related to civil engineering field.",
-        "2 make a team.",
-        "Judge's decision will be final."
-      ],
-      "staff_coordinator": [
-        {"name": "Mrs Rashma Jain"}
-      ],
-      "student_coordinator": [
-        {"name": "Mr Rishan", "phone": "8105393528"},
-        {"name": "Ms Durga", "phone": "9980175117"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Solid Waste Management",
-      "short_desc": "",
-      "rules": [
-        "3 participants in a team.",
-        "30 minutes will be given to search the waste material around the campus.",
-        "Any civil structures / Environmental management concept to be built.",
-        "1 Hour 30 minutes will be provided (Excluding the first 30min).",
-        "Glue and threads will be provided.",
-        "Judge's decision will be final."
-      ],
-      "staff_coordinator": [
-        {"name": "Ms Monika"}
-      ],
-      "student_coordinator": [
-        {"name": "Mr Danimon", "phone": "9544568015"},
-        {"name": "Mr Arlene", "phone": "8289946929"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    }
-  ],
-  "me": [
-    {
-      "title": "Paper Presentation",
-      "short_desc": "",
-      "rules": [
-        "Time limit, 10 + 2 min.",
-        "Two teams from each college.",
-        "First 20 teams are allowed.",
-        "Two make team."
-      ],
-      "staff_coordinator": [
-        {"name": "Ashwin Sequeira", "phone": "9886585818"}
-      ],
-      "student_coordinator": [
-        {"name": "Joyson Sera", "phone": "9741377079"},
-        {"name": "Vallish", "phone": "9986598558"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Debate",
-      "short_desc": "",
-      "rules": [
-        "Prelims if required.",
-        "Two make a team.",
-        "Topics will be given on spot."
-      ],
-      "staff_coordinator": [
-        {"name": "Rajesh", "phone": "8050102807"}
-      ],
-      "student_coordinator": [
-        {"name": "Adithya", "phone": "9632537293"},
-        {"name": "Elroy Crasta", "phone": "9880364703"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Foundry",
-      "short_desc": "",
-      "rules": [
-        "Design will be given on spot.",
-        "Time limit, 60 + 15 min."
-      ],
-      "staff_coordinator": [
-        {"name": "Anuradha Bhandary", "phone": "9035158647"}
-      ],
-      "student_coordinator": [
-        {"name": "Likhith M R", "phone": "9481640788"},
-        {"name": "Varun D Karkera", "phone": "7829899755"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Robo War",
-      "short_desc": "",
-      "rules": [
-        "Three make a team.",
-        "Time limit 10min.",
-        "Weight restrictions."
-      ],
-      "staff_coordinator": [
-        {"name": "Arun Krishnan", "phone": "9945082873"}
-      ],
-      "student_coordinator": [
-        {"name": "Charan T U", "phone": "9731797782"},
-        {"name": "Sannidhi V Shetty", "phone": "9743330212"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Scrap Welding",
-      "short_desc": "",
-      "rules": [
-        "Two make a team.",
-        "Design will be given on spot.",
-        "Time limit, 15 + 5 min."
-      ],
-      "staff_coordinator": [
-        {"name": "Nirmith Jain", "phone": "7353890977"}
-      ],
-      "student_coordinator": [
-        {"name": "Safwan", "phone": "7353938028"},
-        {"name": "Ashish P", "phone": "9538707537"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    }
-  ],
-  "ae": [
-    {
-      "title": "Virtual Pilot",
-      "short_desc": "",
-      "rules": [
-        "Solo Event.",
-        "Software used is Phonix RC.",
-        "Transmitter will be provided.",
-        "Prelims will be conducted if necessary.",
-        "Contestants will be given various tasks like maneuvering, payload drop etc."
-      ],
-      "staff_coordinator": [
-        {"name": "Pratheek"}
-      ],
-      "student_coordinator": [
-        {"name": "Deepthi", "phone": "7892731581"},
-        {"name": "Devi", "phone": "9535857918"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "RC Flying",
-      "short_desc": "",
-      "rules": [
-        "Electric RC Plane is considered for contest.",
-        "Wing dimensions: 1m maximum.",
-        "Fuselage length: 850cm maximum.",
-        "Various tasks will be given in field.",
-        "Judge's decision is final."
-      ],
-      "staff_coordinator": [
-        {"name": "Sreelakshmi"}
-      ],
-      "student_coordinator": [
-        {"name": "Sudharshan", "phone": "7899785606"},
-        {"name": "Sirfraj", "phone": "9986821098"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Gliders",
-      "short_desc": "",
-      "rules": [
-        "Gliders shpuld be brought by participants.",
-        "Either hand launch or catapult launch can be used.",
-        "Various tasks are given to complete and marks are given accordingly.",
-        "Judge's decision is final."
-      ],
-      "staff_coordinator": [
-        {"name": "Suganthi"}
-      ],
-      "student_coordinator": [
-        {"name": "Sham", "phone": "7760401039"},
-        {"name": "Ranjitha", "phone": "7022143152"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Paper Planes",
-      "short_desc": "",
-      "rules": [
-        "All contests are held indoor without wind.",
-        "Paper planes must be constructed out of 1 sheet of paper which will be provided.",
-        "Paper planes have to be built and modified only by folding.",
-        "Only hand launch is allowed."
-      ],
-      "staff_coordinator": [
-        {"name": "Rajshekar Reddy"}
-      ],
-      "student_coordinator": [
-        {"name": "Yashwanth", "phone": "9741796020"},
-        {"name": "Sachin", "phone": "8970013808"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Paper Presentation",
-      "short_desc": "",
-      "rules": [
-        "Maximum number of participants is 2 in a team.",
-        "IEEE format should be followed.",
-        "Maximum of 10 minutes is given to present the paper.",
-        "Topics related to aeronautics or aerospace is accepted."
-      ],
-      "staff_coordinator": [
-        {"name": "Nishanth"}
-      ],
-      "student_coordinator": [
-        {"name": "Megha", "phone": "9481469147"},
-        {"name": "Nayan Shetty", "phone": "9663147634"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    }
-  ],
-  "ec": [
-    {
-      "title": "Circuit-Perception",
-      "short_desc": "Circuit Building",
-      "rules": [
-        "Maximum of 2 members per team is allowed.",
-        "1st round - Prelims 25 questions. Duration is 30 minutes.",
-        "2nd round - Electrovate. Duration is 1 hour."
-      ],
-      "staff_coordinator": [
-        {"name": "Mrs Prameela N S", "phone": "9901946066"}
-      ],
-      "student_coordinator": [
-        {"name": "Kavya B", "phone": "8792175112"},
-        {"name": "Sanganna", "phone": "7259624743"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Tech-Excellence",
-      "short_desc": "Tech Surprise",
-      "rules": [
-        "Maximum of 3 members per team is allowed.",
-        "1st round - Prelims 25 questions. Duration is 30 minutes.",
-        "2nd round - Quibble. Duration is 30 minutes.",
-        "3rd round - Trouble shooting. Duration is 30 minutes (HDL or MATLAB)"
-      ],
-      "staff_coordinator": [
-        {"name": "Mrs Shrividya", "phone": "9741851721"}
-      ],
-      "student_coordinator": [
-        {"name": "Shaguftha Nargis", "phone": "9110437658"},
-        {"name": "Ninada K C", "phone": "9148534710"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "RC-Xtreme",
-      "short_desc": "RC Racing",
-      "rules": [
-        "Only 3 members allowed per team.",
-        "The maximum voltage input to the car should not exceed more than 12 Volts.",
-        "The maximum dimensions of the car can be: length - 30cm, breadth - 25cm, height - 15cm.",
-        "Only electronic (Battery powered) cars are allowed."
-      ],
-      "staff_coordinator": [
-        {"name": "Mr Manjunath Badiger", "phone": "9900573829"}
-      ],
-      "student_coordinator": [
-        {"name": "Rakshith Raj", "phone": "8971960448"},
-        {"name": "Rohan C H", "phone": "9008414081"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Electro-Charades",
-      "short_desc": "",
-      "rules": [
-        "Maximum of 3 members per team is allowed.",
-        "1st round - Prelims 25 questions. Duration is 30 minutes.",
-        "2nd round - Technical dum charades."
-      ],
-      "staff_coordinator": [
-        {"name": "Mrs Jane Maria", "phone": "9916955520"}
-      ],
-      "student_coordinator": [
-        {"name": "Anu R", "phone": "9036809206"},
-        {"name": "Gopika", "phone": "9539139413"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    },
-    {
-      "title": "Tech-Nirupan",
-      "short_desc": "Paper Presentation",
-      "rules": [
-        "Paper should be in IEEE format. Not more than 6 pages.",
-        "Maximum number of in a team is 2.",
-        "Abstract of the paper must be mailed to SAMBHRAM2018EC@GMAIL.COM on or before 19/2/2018.",
-        "Soft copies of the submitted paper should be in .DOCX or .PDF format and should have 2 hard copies.",
-        "Presentation time will be 10 + 2 min."
-      ],
-      "staff_coordinator": [
-        {"name": "Mrs Cema L Miranda", "phone": "9738483968"}
-      ],
-      "student_coordinator": [
-        {"name": "Varsha  K J", "phone": "8147648122"},
-        {"name": "K N Dhanyashree", "phone": "9148513216"}
-      ],
-      "img": "default.jpg",
-      "day": "Day 1",
-      "time": "10:00 AM"
-    }
-  ]
+  "cse": {
+    "title": "Computer Science and Engineering",
+    "short_name": "CS/IS",
+    "icon": "cse.svg",
+    "events": [
+      {
+        "title": "NFS",
+        "short_desc": "Gaming",
+        "rules": [
+          "Individual event.",
+          "No extra accessories like joystick or headset will be provided."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Rizwan Sheikh", "phone": "9481206258"}
+        ],
+        "student_coordinator": [
+          {"name": "Abhishek A", "phone": "9539292601"},
+          {"name": "Abhijith", "phone": "8904206468"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Counter Strike",
+        "short_desc": "Gaming",
+        "rules": [
+          "5 make a team.",
+          "No extra accessories like joystick or headset will be provided.",
+          "No cheat codes!"
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Sadanand", "phone": "9591964222"}
+        ],
+        "student_coordinator": [
+          {"name": "Rohan Kumar", "phone": "9449890174"},
+          {"name": "Prithvi", "phone": "9591579415"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "TechPresento",
+        "short_desc": "Technical Paper Presentation",
+        "rules": [
+          "3 make a team.",
+          "Time limit 8 + 2 mins.",
+          "Paper to be submitted in IEEE format and mailed to SDITCSIS18@GMAIL.COM on or before 10th feb 2018.",
+          "The mail must include the title, team name and college name.",
+          "Confirmations will be sent by 15th feb 2018.",
+          "Spot registrations are not allowed."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Kavyashree", "phone": "9986302114"},
+          {"name": "Mrs Priya George", "phone": "8281965694"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Reshali Crystal", "phone": "7760381712"},
+          {"name": "Ms Pavithra S", "phone": "9686594297"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Quizholic",
+        "short_desc": "Technical Quiz",
+        "rules": [
+          "3 make a team.",
+          "Prelims will be conducted.",
+          "No gadgets are allowed.",
+          "Judges's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Reshma", "phone": "9481466542"}
+        ],
+        "student_coordinator": [
+          {"name": "Sneha Naik", "phone": "9980372087"},
+          {"name": "Sneha Vittal", "phone": "7760422690"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Web Masters",
+        "short_desc": "Web Development",
+        "rules": [
+          "2 make a team.",
+          "Necessary hardware and software will be provided.",
+          "Libraries & tools : Photoshop, jQuery, Bootstrap, AngularJs, Notepad++, Images",
+          "Time duration : 2Hrs",
+          "No gadgets are allowed.",
+          "Prelims will be conducted if necessary.",
+          "Judge's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Rohan D S", "phone": "9535645357"}
+        ],
+        "student_coordinator": [
+          {"name": "Aswath K", "phone": "8075101002"},
+          {"name": "Mudassir H", "phone": "9481563548"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Spycoder",
+        "short_desc": "Technical Scavenger Hunt",
+        "rules": [
+          "2 make a team.",
+          "No gadgets are allowed.",
+          "Prelims will be conducted if necessary.",
+          "Judge's Decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Shrikanth", "phone": "9880410030"}
+        ],
+        "student_coordinator": [
+          {"name": "Kavya N M", "phone": "9945060816"},
+          {"name": "Steffi Priya D'souza", "phone": "7411898270"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Grapix",
+        "short_desc": "Graphic Designing",
+        "rules": [
+          "2 make a team.",
+          "Necessary softwares will be provided.",
+          "No gadgets are allowed.",
+          "Time duration 1.5 Hrs",
+          "Judge's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Ms Raksha P", "phone": "8197930538"}
+        ],
+        "student_coordinator": [
+          {"name": "Gautham R Poojary", "phone": "8792404045"},
+          {"name": "Gagan", "phone": "8762921679"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      }
+    ]
+  },
+  "cv": {
+    "title": "Civil Engineering",
+    "short_name": "Civil Engg",
+    "icon": "cv.svg",
+    "events": [
+      {
+        "title": "Techkrithi",
+        "short_desc": "Technical Paper Presentation",
+        "rules": [
+          "2 members make a team.",
+          "Duration 8 + 2 minutes.",
+          "Topic: Recent trends in civil engineering",
+          "Papers have to be submitted in IEEE format"
+        ],
+        "staff_coordinator": [
+          {"name": "Ms Sowmya S M"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Justin Daryl D'souza", "phone": "8618369835"},
+          {"name": "Ms Chandana", "phone": "8762787011"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Bridge Making",
+        "short_desc": "",
+        "rules": [
+          "2 members make a team.",
+          "Time given is 1 Hour 30 minutes.",
+          "Bridge making materials will be provided.",
+          "Truss is compulsory.",
+          "Judge's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Laxmi Baliga"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Vanditha", "phone": "7022083801"},
+          {"name": "Ms Vijayalaxmi", "phone": "9538132050"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Center line marking",
+        "short_desc": "",
+        "rules": [
+          "3 members make a team.",
+          "1st round: Aptitude test (Half an hour).",
+          "2nd round: Center line marking in field (3 Hours).",
+          "All the required materials will be provided and no extra materials must be brought by the participants except calculator.",
+          "Decision will be based on accuracy and timing.",
+          "Judge's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Vignesh"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Vishal", "phone": "8431082929"},
+          {"name": "Ms Kavitha", "phone": "8152956077"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Mind Tickler",
+        "short_desc": "Technical Quiz",
+        "rules": [
+          "Preliminary round will be conducted.",
+          "Questions are related to civil engineering field.",
+          "2 make a team.",
+          "Judge's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Rashma Jain"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Rishan", "phone": "8105393528"},
+          {"name": "Ms Durga", "phone": "9980175117"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Solid Waste Management",
+        "short_desc": "",
+        "rules": [
+          "3 participants in a team.",
+          "30 minutes will be given to search the waste material around the campus.",
+          "Any civil structures / Environmental management concept to be built.",
+          "1 Hour 30 minutes will be provided (Excluding the first 30min).",
+          "Glue and threads will be provided.",
+          "Judge's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Ms Monika"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Danimon", "phone": "9544568015"},
+          {"name": "Mr Arlene", "phone": "8289946929"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      }
+    ]
+  },
+  "me": {
+    "title": "Mechanical Engineering",
+    "short_name": "Mechanical Engg",
+    "icon": "me.svg",
+    "events": [
+      {
+        "title": "Paper Presentation",
+        "short_desc": "",
+        "rules": [
+          "Time limit, 10 + 2 min.",
+          "Two teams from each college.",
+          "First 20 teams are allowed.",
+          "Two make team."
+        ],
+        "staff_coordinator": [
+          {"name": "Ashwin Sequeira", "phone": "9886585818"}
+        ],
+        "student_coordinator": [
+          {"name": "Joyson Sera", "phone": "9741377079"},
+          {"name": "Vallish", "phone": "9986598558"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Debate",
+        "short_desc": "",
+        "rules": [
+          "Prelims if required.",
+          "Two make a team.",
+          "Topics will be given on spot."
+        ],
+        "staff_coordinator": [
+          {"name": "Rajesh", "phone": "8050102807"}
+        ],
+        "student_coordinator": [
+          {"name": "Adithya", "phone": "9632537293"},
+          {"name": "Elroy Crasta", "phone": "9880364703"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Foundry",
+        "short_desc": "",
+        "rules": [
+          "Design will be given on spot.",
+          "Time limit, 60 + 15 min."
+        ],
+        "staff_coordinator": [
+          {"name": "Anuradha Bhandary", "phone": "9035158647"}
+        ],
+        "student_coordinator": [
+          {"name": "Likhith M R", "phone": "9481640788"},
+          {"name": "Varun D Karkera", "phone": "7829899755"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Robo War",
+        "short_desc": "",
+        "rules": [
+          "Three make a team.",
+          "Time limit 10min.",
+          "Weight restrictions."
+        ],
+        "staff_coordinator": [
+          {"name": "Arun Krishnan", "phone": "9945082873"}
+        ],
+        "student_coordinator": [
+          {"name": "Charan T U", "phone": "9731797782"},
+          {"name": "Sannidhi V Shetty", "phone": "9743330212"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Scrap Welding",
+        "short_desc": "",
+        "rules": [
+          "Two make a team.",
+          "Design will be given on spot.",
+          "Time limit, 15 + 5 min."
+        ],
+        "staff_coordinator": [
+          {"name": "Nirmith Jain", "phone": "7353890977"}
+        ],
+        "student_coordinator": [
+          {"name": "Safwan", "phone": "7353938028"},
+          {"name": "Ashish P", "phone": "9538707537"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      }
+    ]
+  },
+  "ae": {
+    "title": "Aeronautical Engineering",
+    "short_name": "Aeronautical",
+    "icon": "ae.svg",
+    "events": [
+      {
+        "title": "Virtual Pilot",
+        "short_desc": "",
+        "rules": [
+          "Solo Event.",
+          "Software used is Phonix RC.",
+          "Transmitter will be provided.",
+          "Prelims will be conducted if necessary.",
+          "Contestants will be given various tasks like maneuvering, payload drop etc."
+        ],
+        "staff_coordinator": [
+          {"name": "Pratheek"}
+        ],
+        "student_coordinator": [
+          {"name": "Deepthi", "phone": "7892731581"},
+          {"name": "Devi", "phone": "9535857918"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "RC Flying",
+        "short_desc": "",
+        "rules": [
+          "Electric RC Plane is considered for contest.",
+          "Wing dimensions: 1m maximum.",
+          "Fuselage length: 850cm maximum.",
+          "Various tasks will be given in field.",
+          "Judge's decision is final."
+        ],
+        "staff_coordinator": [
+          {"name": "Sreelakshmi"}
+        ],
+        "student_coordinator": [
+          {"name": "Sudharshan", "phone": "7899785606"},
+          {"name": "Sirfraj", "phone": "9986821098"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Gliders",
+        "short_desc": "",
+        "rules": [
+          "Gliders shpuld be brought by participants.",
+          "Either hand launch or catapult launch can be used.",
+          "Various tasks are given to complete and marks are given accordingly.",
+          "Judge's decision is final."
+        ],
+        "staff_coordinator": [
+          {"name": "Suganthi"}
+        ],
+        "student_coordinator": [
+          {"name": "Sham", "phone": "7760401039"},
+          {"name": "Ranjitha", "phone": "7022143152"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Paper Planes",
+        "short_desc": "",
+        "rules": [
+          "All contests are held indoor without wind.",
+          "Paper planes must be constructed out of 1 sheet of paper which will be provided.",
+          "Paper planes have to be built and modified only by folding.",
+          "Only hand launch is allowed."
+        ],
+        "staff_coordinator": [
+          {"name": "Rajshekar Reddy"}
+        ],
+        "student_coordinator": [
+          {"name": "Yashwanth", "phone": "9741796020"},
+          {"name": "Sachin", "phone": "8970013808"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Paper Presentation",
+        "short_desc": "",
+        "rules": [
+          "Maximum number of participants is 2 in a team.",
+          "IEEE format should be followed.",
+          "Maximum of 10 minutes is given to present the paper.",
+          "Topics related to aeronautics or aerospace is accepted."
+        ],
+        "staff_coordinator": [
+          {"name": "Nishanth"}
+        ],
+        "student_coordinator": [
+          {"name": "Megha", "phone": "9481469147"},
+          {"name": "Nayan Shetty", "phone": "9663147634"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      }
+    ]
+  },
+  "ece": {
+    "title": "Electronics and Communication Engineering",
+    "short_name": "E & C",
+    "icon": "ece.svg",
+    "events": [
+      {
+        "title": "Circuit-Perception",
+        "short_desc": "Circuit Building",
+        "rules": [
+          "Maximum of 2 members per team is allowed.",
+          "1st round - Prelims 25 questions. Duration is 30 minutes.",
+          "2nd round - Electrovate. Duration is 1 hour."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Prameela N S", "phone": "9901946066"}
+        ],
+        "student_coordinator": [
+          {"name": "Kavya B", "phone": "8792175112"},
+          {"name": "Sanganna", "phone": "7259624743"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Tech-Excellence",
+        "short_desc": "Tech Surprise",
+        "rules": [
+          "Maximum of 3 members per team is allowed.",
+          "1st round - Prelims 25 questions. Duration is 30 minutes.",
+          "2nd round - Quibble. Duration is 30 minutes.",
+          "3rd round - Trouble shooting. Duration is 30 minutes (HDL or MATLAB)"
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Shrividya", "phone": "9741851721"}
+        ],
+        "student_coordinator": [
+          {"name": "Shaguftha Nargis", "phone": "9110437658"},
+          {"name": "Ninada K C", "phone": "9148534710"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "RC-Xtreme",
+        "short_desc": "RC Racing",
+        "rules": [
+          "Only 3 members allowed per team.",
+          "The maximum voltage input to the car should not exceed more than 12 Volts.",
+          "The maximum dimensions of the car can be: length - 30cm, breadth - 25cm, height - 15cm.",
+          "Only electronic (Battery powered) cars are allowed."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Manjunath Badiger", "phone": "9900573829"}
+        ],
+        "student_coordinator": [
+          {"name": "Rakshith Raj", "phone": "8971960448"},
+          {"name": "Rohan C H", "phone": "9008414081"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Electro-Charades",
+        "short_desc": "",
+        "rules": [
+          "Maximum of 3 members per team is allowed.",
+          "1st round - Prelims 25 questions. Duration is 30 minutes.",
+          "2nd round - Technical dum charades."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Jane Maria", "phone": "9916955520"}
+        ],
+        "student_coordinator": [
+          {"name": "Anu R", "phone": "9036809206"},
+          {"name": "Gopika", "phone": "9539139413"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Tech-Nirupan",
+        "short_desc": "Paper Presentation",
+        "rules": [
+          "Paper should be in IEEE format. Not more than 6 pages.",
+          "Maximum number of in a team is 2.",
+          "Abstract of the paper must be mailed to SAMBHRAM2018EC@GMAIL.COM on or before 19/2/2018.",
+          "Soft copies of the submitted paper should be in .DOCX or .PDF format and should have 2 hard copies.",
+          "Presentation time will be 10 + 2 min."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Cema L Miranda", "phone": "9738483968"}
+        ],
+        "student_coordinator": [
+          {"name": "Varsha  K J", "phone": "8147648122"},
+          {"name": "K N Dhanyashree", "phone": "9148513216"}
+        ],
+        "img": "default.svg",
+        "day": "Day 1",
+        "time": "10:00 AM"
+      }
+    ]
+  },
+  "cul": {
+    "title": "Cultural Events",
+    "short_name": "Cultural",
+    "icon": "cul.svg",
+    "events": [
+      {
+        "title": "Lights, Camera & Action",
+        "short_desc": "Movie Making",
+        "rules": [
+          "Topic will be given on spot.",
+          "Team of 3 members.",
+          "Duration of the movie should not exceed more than 5 min.",
+          "Video should be submitted as per scheduled time.",
+          "Judging will be based on Clarity of message, Creativity and Production value.",
+          "Judge's decision will be final and binding.",
+          "Note: This particular event will begin/start on 1st day of Sambhram and final submission will be on 2nd Day of Sambhram."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Abhilash Kidiyoor", "phone": "9964139996"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Sharan Kumar", "phone": "8762925410"},
+          {"name": "Mr Vaishak Kumar", "phone": "8861346077"}
+        ],
+        "img": "default.svg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "The Henna Art",
+        "short_desc": "Mehendi",
+        "rules": [
+          "2 make a team.",
+          "Time limit 60min.",
+          "Required materials should be brought by the participants.",
+          "Theme: Indian bridal design (One full hand)."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Anupama Natesh", "phone": "9986065426"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Fasila Banu", "phone": "9743838414"},
+          {"name": "Ms Babitha B", "phone": "9482347846"}
+        ],
+        "img": "default.svg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Mind Your Mind",
+        "short_desc": "Creative Writing",
+        "rules": [
+          "Competition will be held in English and Kannada. Participants can choose from either of the languages to participate.",
+          "Topics on spot.",
+          "Participants are encouraged to put for original and unaided writings during competition.",
+          "The word count per entry is 750 to 1000 words. Please aim to keep within this.",
+          "Time limit is 30 min. Can be decreased to 20 min if necessary.",
+          "Prelims will be conducted if necessary.",
+          "Required stationary is to be brought by the participants.",
+          "Judge's decision will be final and binding."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Savitha J", "phone": "7353079669"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Rupesh Samani", "phone": "8655676141"},
+          {"name": "Mr Afrin", "phone": "8050625982"}
+        ],
+        "img": "default.svg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Dance Mania",
+        "short_desc": "Group Dance",
+        "rules": [
+          "Minimum of 6 members and maximum of 10 participants.",
+          "Eastern and western forms are entertained.",
+          "Time duration 5 + 1 (Includeing the stage setting).",
+          "Judgement criteria: The dancers, Co-ordination, Stage creation,  Innovation and presentation.",
+          "Vulgarity and obscenity will result in disqualification of the team.",
+          "Marks will be deducted if the time limit exceeds.",
+          "Music should be submitted in CD/Pendrive at least an hour before the competition to the organizers.",
+          "Props allowed.",
+          "Judge's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Rajesh Belchada", "phone": "9964024293"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Sumith", "phone": "9482496982"},
+          {"name": "Ms Nileesha", "phone": "9035592823"}
+        ],
+        "img": "default.svg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Crazy Marketiers",
+        "short_desc": "Mad Ads",
+        "rules": [
+          "Time duration 4 + 1 mins",
+          "Theme is open to the participants",
+          "Vulgarity will result in disqualification.",
+          "Judge's decision will be final and binding."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Arun Krishnan", "phone": "9945082873"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Prithviraj", "phone": "7406916463"},
+          {"name": "Mr Harsha", "phone": "9900952161"}
+        ],
+        "img": "default.svg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Mirror Image",
+        "short_desc": "Face Painting",
+        "rules": [
+          "2 Make a team.",
+          "Participants should bring their own colors, brushes etc.",
+          "Time limit 60 mins.",
+          "Topic will be given on the spot.",
+          "Participants will be judged on the basis of creativity, innovations and designs.",
+          "Judge's decision will be final and binding."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Supriya", "phone": "9900405688"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Harshini", "phone": "9481508847"},
+          {"name": "Ms Sahana", "phone": "8050129114"}
+        ],
+        "img": "default.svg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Frame It",
+        "short_desc": "Photography",
+        "rules": [
+          "Cameras to be bought by the participants.",
+          "Mobile photography is not allowed.",
+          "Formatting the memory is compulsory before the event begins.",
+          "Final submission of image in JPEG formatt.",
+          "Editing is not allowed.",
+          "Topic on the spot.",
+          "Photo should be captured within the campus itself.",
+          "Judge's decision is final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Swathi R K", "phone": "9902331041"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Yashraj", "phone": "9590979490"},
+          {"name": "Mr Glen", "phone": "8105695027"}
+        ],
+        "img": "default.svg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Kosupure",
+        "short_desc": "Cosplay",
+        "rules": [
+          "The contest is open to characters from Movies, TV shows, Comic books, Cartoon character, Video games and Card games.",
+          "Your costume must cover swimsuit areas - No nudity, Body paint costumes are not eligible for craftsmanship.",
+          "Overly political or religious statements are not allowed on stage.",
+          "No pyrotechnics, fire, explosive devices.",
+          "Special effects can be used during the competition. This includes smoke/smog machines and flash powder.",
+          "Contestants can bring their own audio tracks and allowed to perform for 2 minutes.",
+          "Judge's decision will be final and binding.",
+          "Note: Contestants should bring a reference photo of the character. They are portraying."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Rashma Jain", "phone": "9686346565"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Rebecca", "phone": "8277346169"},
+          {"name": "Mr Prithvi", "phone": "7899501450"}
+        ],
+        "img": "default.svg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      }
+    ]
+  }
 }

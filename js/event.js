@@ -24,7 +24,7 @@ $(document).ready(function() {
   $('.event-card').click(function() {
     var type = $(this).attr('data-type');
     var num = $(this).attr('data-event');
-    var event = events[type][num];
+    var event = events[type].events[num];
 
     $eventTitle.html(event.title);
     if(event.short_desc)
