@@ -22,6 +22,8 @@ $(document).ready(function() {
   var $headerNav = $('header.navbar')
 
   $('.event-card').click(function() {
+    window.location.hash = "details";
+
     var type = $(this).attr('data-type');
     var num = $(this).attr('data-event');
     var event = events[type].events[num];
@@ -63,8 +65,14 @@ $(document).ready(function() {
   });
 
   $('.details-header .back-btn').click(function() {
-    $eventDetails.removeClass('up').scrollTop(0);
-    $eventDetailsHeader.removeClass('down');
-    $headerNav.show();
+    history.back();
+  });
+
+  $(window).on('hashchange', function() {
+    if(window.location.hash == '') {
+      $eventDetails.removeClass('up').scrollTop(0);
+      $eventDetailsHeader.removeClass('down');
+      $headerNav.show();
+    }
   });
 });
