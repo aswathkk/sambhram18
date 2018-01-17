@@ -7,7 +7,7 @@
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <!--<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
     <link rel="stylesheet" href="css/ripple.css">
     
     <link rel="stylesheet" href="css/style.css">
@@ -36,7 +36,7 @@
     <div id="hero">
       <div class="container-fluid full-height">
         <div class="row align-items-center full-height">
-          <div class="col">
+          <div class="col" data-depth="0.2">
             <h5>Shree Devi Institute of Technology</h5>
             <h6>Presents</h6>
             <h1>Sambhram '18</h1>
@@ -124,23 +124,36 @@
     </section>
 
     <section>
-      <div class="container">
+      <!--<div class="container">
         <div class="row">
           <div class="col-sm-12">
             <h2 class="section-title"><span>L</span>ocation</h2>
           </div>
         </div>
-      </div>
-      <!-- TODO: uncomment --!>
-      <!--<iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB3ZOKnpSHG1iJY7TVh68f2OYMTSSKaa5k&q=Shree+Devi+Institute+of+Technology" allowfullscreen></iframe>-->
+      </div>-->
+       <!--TODO: uncomment -->
+      <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB3ZOKnpSHG1iJY7TVh68f2OYMTSSKaa5k&q=Shree+Devi+Institute+of+Technology" allowfullscreen></iframe>
     </section>
 
-    <footer class="container my-4">
-      <div class="row">
-        <div class="col">
-          <!--<div class="credits">
-            crafted with ❤️ by Aswath
-          </div>-->
+    <section class="app">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <a class="download" href="#">
+              <img src="img/android.svg" />
+              Download App
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-center">
+            &copy; 2018 ShreedeviSambhram18.com
+          </div>
         </div>
       </div>
     </footer>
@@ -156,6 +169,7 @@
     <!--<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>-->
     <script src="js/particles.js"></script>
     <script src="js/downCount.js"></script>
+    <script src="js/parallax.min.js"></script>
 
     <script src="js/ripple.js"></script>
     <script src="js/main.js"></script>

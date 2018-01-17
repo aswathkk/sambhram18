@@ -48,7 +48,7 @@ html, body {
 .countdown {
   text-align: center;
   padding: 3rem 0;
-  background: #555;
+  background: #34495e;
   color: #fff;
 }
 
@@ -416,6 +416,36 @@ footer .credits {
   border: none;
 }
 
+.app {
+  text-align: center;
+  padding: 3rem 0;
+  background: #34495e;
+  color: #fff;
+  margin-top: -0.35em;
+}
+
+.app .download {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1.2em;
+  color: #558B2F;
+  border-radius: .2rem;
+  text-decoration: none;
+  transition: transform .3s, box-shadow .4s, background .4s;
+}
+
+.app .download:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(2);
+  box-shadow: 1px 6px 24px 5px rgba(46,61,73,.2);
+}
+
+footer {
+  background: #2c3e50;
+  color: #fff;
+  padding: 1rem 0rem;
+  font-size: .85rem;
+  font-weight: 100;
+}
 
 @media (max-width: 575.99px) {
   .event-data {

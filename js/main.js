@@ -102,6 +102,11 @@ $(document).ready(function() {
     "retina_detect": true
   });
 
+  var hero = $('#hero .row').get(0);
+  var parallax = new Parallax(hero, {
+    hoverOnly: true
+  });
+
   $('.countdown').downCount({
       date: '02/22/2018 09:00:00',
       offset: '+5.50',

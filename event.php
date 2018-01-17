@@ -21,7 +21,7 @@
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!--<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
     <link rel="stylesheet" href="css/ripple.css">
     
     <link rel="stylesheet" href="css/style.css">
@@ -53,7 +53,7 @@
     <div class="details-header">
       <nav class="navbar navbar-light bg-light">
         <div class="back-btn lripple">
-          <i class="material-icons">arrow_back</i>
+          <img src="img/back.svg" />
         </div>
       </nav>
     </div>
@@ -105,12 +105,12 @@
       </div>
     </div>
 
-    <footer class="container my-4">
-      <div class="row">
-        <div class="col">
-          <!--<div class="credits">
-            crafted with ❤️ by Aswath
-          </div>-->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-center">
+            &copy; 2018 ShreedeviSambhram18.com
+          </div>
         </div>
       </div>
     </footer>
