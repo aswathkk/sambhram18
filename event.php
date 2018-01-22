@@ -109,7 +109,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col text-center">
-            &copy; 2018 ShreedeviSambhram18.com
+            &copy; 2018 ShreedeviSambhram
           </div>
         </div>
       </div>

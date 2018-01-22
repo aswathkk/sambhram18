@@ -18,7 +18,7 @@
           {"name": "Abhishek A", "phone": "9539292601"},
           {"name": "Abhijith", "phone": "8904206468"}
         ],
-        "img": "default.svg",
+        "img": "nfs.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -37,7 +37,7 @@
           {"name": "Rohan Kumar", "phone": "9449890174"},
           {"name": "Prithvi", "phone": "9591579415"}
         ],
-        "img": "default.svg",
+        "img": "counter_strike.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -60,7 +60,7 @@
           {"name": "Ms Reshali Crystal", "phone": "7760381712"},
           {"name": "Ms Pavithra S", "phone": "9686594297"}
         ],
-        "img": "default.svg",
+        "img": "paper_presentation.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -80,7 +80,7 @@
           {"name": "Sneha Naik", "phone": "9980372087"},
           {"name": "Sneha Vittal", "phone": "7760422690"}
         ],
-        "img": "default.svg",
+        "img": "quiz.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -103,7 +103,7 @@
           {"name": "Aswath K", "phone": "8075101002"},
           {"name": "Mudassir H", "phone": "9481563548"}
         ],
-        "img": "default.svg",
+        "img": "webmasters.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -123,7 +123,7 @@
           {"name": "Kavya N M", "phone": "9945060816"},
           {"name": "Steffi Priya D'souza", "phone": "7411898270"}
         ],
-        "img": "default.svg",
+        "img": "spycoder.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -144,7 +144,7 @@
           {"name": "Gautham R Poojary", "phone": "8792404045"},
           {"name": "Gagan", "phone": "8762921679"}
         ],
-        "img": "default.svg",
+        "img": "grapix.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       }
@@ -171,7 +171,7 @@
           {"name": "Mr Justin Daryl D'souza", "phone": "8618369835"},
           {"name": "Ms Chandana", "phone": "8762787011"}
         ],
-        "img": "default.svg",
+        "img": "paper_presentation.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -192,7 +192,7 @@
           {"name": "Ms Vanditha", "phone": "7022083801"},
           {"name": "Ms Vijayalaxmi", "phone": "9538132050"}
         ],
-        "img": "default.svg",
+        "img": "bridge_making.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -234,7 +234,7 @@
           {"name": "Mr Rishan", "phone": "8105393528"},
           {"name": "Ms Durga", "phone": "9980175117"}
         ],
-        "img": "default.svg",
+        "img": "quiz.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -256,7 +256,7 @@
           {"name": "Mr Danimon", "phone": "9544568015"},
           {"name": "Mr Arlene", "phone": "8289946929"}
         ],
-        "img": "default.svg",
+        "img": "waste_management.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       }
@@ -283,7 +283,7 @@
           {"name": "Joyson Sera", "phone": "9741377079"},
           {"name": "Vallish", "phone": "9986598558"}
         ],
-        "img": "default.svg",
+        "img": "paper_presentation.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -302,7 +302,7 @@
           {"name": "Adithya", "phone": "9632537293"},
           {"name": "Elroy Crasta", "phone": "9880364703"}
         ],
-        "img": "default.svg",
+        "img": "debate.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -339,7 +339,7 @@
           {"name": "Charan T U", "phone": "9731797782"},
           {"name": "Sannidhi V Shetty", "phone": "9743330212"}
         ],
-        "img": "default.svg",
+        "img": "robowars.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -358,7 +358,7 @@
           {"name": "Safwan", "phone": "7353938028"},
           {"name": "Ashish P", "phone": "9538707537"}
         ],
-        "img": "default.svg",
+        "img": "welding.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       }
@@ -374,7 +374,7 @@
         "short_desc": "",
         "rules": [
           "Solo Event.",
-          "Software used is Phonix RC.",
+          "Software used is Phoenix RC.",
           "Transmitter will be provided.",
           "Prelims will be conducted if necessary.",
           "Contestants will be given various tasks like maneuvering, payload drop etc."
@@ -386,7 +386,7 @@
           {"name": "Deepthi", "phone": "7892731581"},
           {"name": "Devi", "phone": "9535857918"}
         ],
-        "img": "default.svg",
+        "img": "virtual_pilot.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -407,7 +407,7 @@
           {"name": "Sudharshan", "phone": "7899785606"},
           {"name": "Sirfraj", "phone": "9986821098"}
         ],
-        "img": "default.svg",
+        "img": "rc_flying.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -427,7 +427,7 @@
           {"name": "Sham", "phone": "7760401039"},
           {"name": "Ranjitha", "phone": "7022143152"}
         ],
-        "img": "default.svg",
+        "img": "glider.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -447,7 +447,7 @@
           {"name": "Yashwanth", "phone": "9741796020"},
           {"name": "Sachin", "phone": "8970013808"}
         ],
-        "img": "default.svg",
+        "img": "paper_plane.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -467,7 +467,7 @@
           {"name": "Megha", "phone": "9481469147"},
           {"name": "Nayan Shetty", "phone": "9663147634"}
         ],
-        "img": "default.svg",
+        "img": "paper_presentation.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       }
@@ -493,7 +493,7 @@
           {"name": "Kavya B", "phone": "8792175112"},
           {"name": "Sanganna", "phone": "7259624743"}
         ],
-        "img": "default.svg",
+        "img": "circuit_building.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -533,7 +533,7 @@
           {"name": "Rakshith Raj", "phone": "8971960448"},
           {"name": "Rohan C H", "phone": "9008414081"}
         ],
-        "img": "default.svg",
+        "img": "rc_racing.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -552,7 +552,7 @@
           {"name": "Anu R", "phone": "9036809206"},
           {"name": "Gopika", "phone": "9539139413"}
         ],
-        "img": "default.svg",
+        "img": "electro_charades.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -573,7 +573,7 @@
           {"name": "Varsha  K J", "phone": "8147648122"},
           {"name": "K N Dhanyashree", "phone": "9148513216"}
         ],
-        "img": "default.svg",
+        "img": "paper_presentation.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       }
@@ -603,7 +603,7 @@
           {"name": "Mr Sharan Kumar", "phone": "8762925410"},
           {"name": "Mr Vaishak Kumar", "phone": "8861346077"}
         ],
-        "img": "default.svg",
+        "img": "movie_making.jpg",
         "day": "Day 2",
         "time": "10:00 AM"
       },
@@ -623,7 +623,7 @@
           {"name": "Ms Fasila Banu", "phone": "9743838414"},
           {"name": "Ms Babitha B", "phone": "9482347846"}
         ],
-        "img": "default.svg",
+        "img": "mehendi.jpg",
         "day": "Day 2",
         "time": "10:00 AM"
       },
@@ -647,7 +647,7 @@
           {"name": "Mr Rupesh Samani", "phone": "8655676141"},
           {"name": "Mr Afrin", "phone": "8050625982"}
         ],
-        "img": "default.svg",
+        "img": "creative_writing.jpg",
         "day": "Day 2",
         "time": "10:00 AM"
       },
@@ -672,7 +672,7 @@
           {"name": "Mr Sumith", "phone": "9482496982"},
           {"name": "Ms Nileesha", "phone": "9035592823"}
         ],
-        "img": "default.svg",
+        "img": "group_dance.jpg",
         "day": "Day 2",
         "time": "10:00 AM"
       },
@@ -692,7 +692,7 @@
           {"name": "Mr Prithviraj", "phone": "7406916463"},
           {"name": "Mr Harsha", "phone": "9900952161"}
         ],
-        "img": "default.svg",
+        "img": "madads.jpg",
         "day": "Day 2",
         "time": "10:00 AM"
       },
@@ -714,7 +714,7 @@
           {"name": "Ms Harshini", "phone": "9481508847"},
           {"name": "Ms Sahana", "phone": "8050129114"}
         ],
-        "img": "default.svg",
+        "img": "face_painting.jpg",
         "day": "Day 2",
         "time": "10:00 AM"
       },
@@ -738,7 +738,7 @@
           {"name": "Mr Yashraj", "phone": "9590979490"},
           {"name": "Mr Glen", "phone": "8105695027"}
         ],
-        "img": "default.svg",
+        "img": "photography.jpg",
         "day": "Day 2",
         "time": "10:00 AM"
       },
@@ -762,7 +762,150 @@
           {"name": "Ms Rebecca", "phone": "8277346169"},
           {"name": "Mr Prithvi", "phone": "7899501450"}
         ],
-        "img": "default.svg",
+        "img": "cosplay.jpg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "The Chasers",
+        "short_desc": "Treasure Hunt",
+        "rules": [
+          "3 make a team.",
+          "Use of cellphones will not be allowed during the event.",
+          "Wandering outside the college campus will disqualify the team.",
+          "The decision of event coordinators will be final and binding.",
+          "Prelims will be conducted if necessary."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Manjunath Badiger", "phone": "9900573829"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Shashwathi Shetty", "phone": "8660057785"},
+          {"name": "Ms Yakshitha Shetty", "phone": "9980050570"}
+        ],
+        "img": "treasure_hunt.jpg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Songs Unlimited",
+        "short_desc": "Antakshari",
+        "rules": [
+          "3 make a team.",
+          "Only bollywood songs.",
+          "Prelims will be conducted if necessary.",
+          "Judge's decision will be final."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Ashwin Sequeira", "phone": "9886585818"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Deeksha YB", "phone": "8762914002"},
+          {"name": "Mr Sarfaraz", "phone": "8805371061"}
+        ],
+        "img": "antakshari.jpg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Rhytmic Ride",
+        "short_desc": "Singing",
+        "rules": [
+          "Time duration 3 + 1 mins.",
+          "Filmy or album songs are allowed (English, Hindi). No classical songs).",
+          "Karoke is not allowed.",
+          "Musical instruments can be used only for pitch identification.",
+          "Judge's decision will be final and binding."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Pavithra Poornima", "phone": "7760573008"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Parashuram Roma Naik", "phone": "8123434424"},
+          {"name": "Mr Nandan Hegde", "phone": "7760012931"}
+        ],
+        "img": "singing.jpg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Face Off",
+        "short_desc": "Stress Interview",
+        "rules": [
+          "Selected students will be interviewed individually by a committee.",
+          "The committee consists of a panel of threee members.",
+          "Students will be asked stressful questions to test their patience and communication skills under a stressfull situation.",
+          "Judge's decision will be final and binding."
+        ],
+        "staff_coordinator": [
+          {"name": "Ms Melitia D'Mello", "phone": "8095815360"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Sameer", "phone": "9008020990"},
+          {"name": "Mr Praful", "phone": "8970877410"}
+        ],
+        "img": "stress_interview.jpg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Pretty Cute-Icles",
+        "short_desc": "Nail Art",
+        "rules": [
+          "Time duration is 60 Mins.",
+          "Work must be applied on natural nails only.",
+          "Items must be in original containers that clearly read 'Soak of Gel' during inspection in the beginnig.",
+          "Items brought must be displayed.",
+          "Nail art may be flat or be raised surface."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Priya George A", "phone": "8281965694"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Neha K C", "phone": "7760878598"},
+          {"name": "Ms Nidhi K", "phone": "9164395438"}
+        ],
+        "img": "nail_art.jpg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "The Performers",
+        "short_desc": "Lip Sync Battle",
+        "rules": [
+          "4 make a team.",
+          "The maximum time limit is 4 minutes per performance. After 4 minutes the music will be fade out.",
+          "Teams may use props.",
+          "Prelims will be conducted if necessary."
+        ],
+        "staff_coordinator": [
+          {"name": "Mrs Sandhya B N", "phone": "9900170151"}
+        ],
+        "student_coordinator": [
+          {"name": "Ms Swathi Puthran", "phone": "9731387734"},
+          {"name": "Ms Sajna", "phone": "8089726390"}
+        ],
+        "img": "lip_sync.jpg",
+        "day": "Day 2",
+        "time": "10:00 AM"
+      },
+      {
+        "title": "Comic Con",
+        "short_desc": "Quiz",
+        "rules": [
+          "2 make a team.",
+          "Use of cellphones is prohibited.",
+          "Prelims will be conducted if necessary.",
+          "The topics will cover famous english TV series, anime and comic movies."
+        ],
+        "staff_coordinator": [
+          {"name": "Mr Nishanth S", "phone": "9447438092"}
+        ],
+        "student_coordinator": [
+          {"name": "Mr Dayasagar", "phone": "974248957"},
+          {"name": "Mr Amruth", "phone": "8971455668"}
+        ],
+        "img": "quiz.jpg",
         "day": "Day 2",
         "time": "10:00 AM"
       }

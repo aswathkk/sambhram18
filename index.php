@@ -7,7 +7,7 @@
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ruslan+Display" rel="stylesheet">
     <link rel="stylesheet" href="css/ripple.css">
     
     <link rel="stylesheet" href="css/style.css">
@@ -30,19 +30,19 @@
     </div>
 
     <div class="conainer-fluid">
-      <div id="particles-js"></div>
+      <div id="particles"></div>
     </div>
 
     <div id="hero">
       <div class="container-fluid full-height">
         <div class="row align-items-center full-height">
-          <div class="col" data-depth="0.2">
+          <div class="col-12" data-depth="1">
             <h5>Shree Devi Institute of Technology</h5>
             <h6>Presents</h6>
             <h1>Sambhram '18</h1>
             <p class="tagline">Symphony of celebrations</p>
-            <p class="date">22<sup>nd</sup> & 23<sup>rd</sup> Feb.</p>
             <div>A National level Technical & Cultural fest</div>
+            <p class="date">22<sup>nd</sup> & 23<sup>rd</sup> Feb.</p>
           </div>
         </div>
       </div>
@@ -152,7 +152,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col text-center">
-            &copy; 2018 ShreedeviSambhram18.com
+            &copy; 2018 ShreedeviSambhram
           </div>
         </div>
       </div>

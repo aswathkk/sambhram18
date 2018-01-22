@@ -12,26 +12,35 @@ html, body {
   overflow: hidden;
 }
 
-#particles-js {
-  height: 100%;
-  width: 100%;
+#particles {
+  background: #02b3e4 linear-gradient(to bottom right,#02b3e4,#02ccba);;
   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 #hero {
-  background: #02b3e4 -webkit-gradient(linear,left top, right bottom,from(#02b3e4),to(#02ccba));
-  background: #02b3e4 -webkit-linear-gradient(top left,#02b3e4,#02ccba);
-  background: #02b3e4 -o-linear-gradient(top left,#02b3e4,#02ccba);
-  background: #02b3e4 linear-gradient(to bottom right,#02b3e4,#02ccba);
   color: #fff;
   text-align: center;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100%;
+  position: relative;
+}
+
+#hero svg#foreground {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: none;
 }
 
 #hero h1 {
-  font: 52pt 'Clicker Script', cursive;
+  font: 58pt 'Ruslan Display', cursive;
   font-weight: bold;
+  margin-top: 1em;
 }
 
 #hero h6, #hero h5 {
@@ -40,9 +49,15 @@ html, body {
 }
 
 #hero .tagline {
+  font-family: 'Dancing Script', cursive;
   position: relative;
-  top: -2em;
-  right: -5em;
+  top: -1.2em;
+  right: -11em;
+  font-size: 1.3rem;
+}
+
+#hero .date {
+  margin-top: 1em;
 }
 
 .countdown {
@@ -67,7 +82,7 @@ header.navbar {
 
 header.navbar a {
   color: #fff;
-  font: 1.25rem 'Clicker Script', cursive;
+  font: 1.25rem 'Ruslan Display', cursive;
   font-weight: bold;
 }
 
@@ -450,6 +465,19 @@ footer {
 @media (max-width: 575.99px) {
   .event-data {
     padding: 2em 1em;
+  }
+
+  #hero h1 {
+    font-size: 28pt;
+  }
+
+  #hero .tagline {
+    right: -3em;
+    top: -0.6em;
+  }
+
+  .countdown {
+    padding: 1rem 0;
   }
 }
 
