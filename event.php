@@ -115,6 +115,32 @@
       </div>
     </footer>
 
+    <div class="menu hide" style="display: none;">
+      <button class="navbar-toggler"><img src="img/close.svg"/></button>
+      <div class="container-fluid full-height">
+        <div class="row text-center full-height align-items-center">
+          <a href="event.php?type=ae" class="col-md-2">
+            <span>AE</span>
+          </a>
+          <a href="event.php?type=cse" class="col-md-2">
+            <span>CS/IS</span>
+          </a>
+          <a href="event.php?type=cv" class="col-md-2">
+            <span>CV</span>
+          </a>
+          <a href="event.php?type=ece" class="col-md-2">
+            <span>EC</span>
+          </a>
+          <a href="event.php?type=me" class="col-md-2">
+            <span>ME</span>
+          </a>
+          <a href="event.php?type=cul" class="col-md-2">
+            <span>Culturals</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="ripple-wrapper">
       <div class="ripple"></div>
     </div>

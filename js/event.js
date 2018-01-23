@@ -75,4 +75,24 @@ $(document).ready(function() {
       $headerNav.show();
     }
   });
+
+  $('.navbar-toggler').click(function(){
+    toggleMenu();
+  });
 });
+
+var menuState = false;
+
+function toggleMenu() {
+  if(menuState) {
+    $('.menu').addClass('hide');
+    setTimeout(function() {
+      $('.menu').hide();
+    }, 600);
+    menuState = false;
+  } else {
+    $('.menu').show();
+    $('.menu').removeClass('hide');
+    menuState = true;
+  }
+}
