@@ -13,7 +13,7 @@ html, body {
 }
 
 #particles {
-  background: #02b3e4 linear-gradient(to bottom right,#02b3e4,#02ccba);;
+  background: #02b3e4 linear-gradient(to bottom right,#02b3e4,#02ccba);
   position: absolute;
   top: 0;
   right: 0;
@@ -38,7 +38,7 @@ html, body {
 }
 
 #hero h1 {
-  font: 58pt 'Ruslan Display', cursive;
+  font: 40pt 'Amarillo', cursive;
   font-weight: bold;
   margin-top: 1em;
 }
@@ -49,11 +49,10 @@ html, body {
 }
 
 #hero .tagline {
-  font-family: 'Dancing Script', cursive;
   position: relative;
-  top: -1.2em;
-  right: -11em;
-  font-size: 1.3rem;
+  top: -0.6em;
+  right: -9em;
+  font-size: 1.1rem;
 }
 
 #hero .date {
@@ -556,6 +555,11 @@ footer {
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
+}
+
+@font-face {
+  font-family: 'Amarillo';
+  src: local('Amarillo'), url('../fonts/Amarillo.ttf');
 }
 
 @media (max-width: 575.99px) {

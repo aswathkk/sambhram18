@@ -7,7 +7,7 @@
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ruslan+Display" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ruslan+Display" rel="stylesheet">-->
     <link rel="stylesheet" href="css/ripple.css">
     
     <link rel="stylesheet" href="css/style.css">
