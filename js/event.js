@@ -1,8 +1,3 @@
-var events;
-$.getJSON('events.json', function(data) {
-  events = data;
-});
-
 $(document).ready(function() {
   $('.event-loading').addClass('goup');
   $('.events').addClass('up');
@@ -10,23 +5,32 @@ $(document).ready(function() {
 
   $('.lripple').ripple();
 
-  var $eventTitle = $('#event-title');
+  var $eventTitle = $('.event-title');
   var $eventSub = $('#event-sub');
   var $eventImg = $('#event-img');
+  var $eventDay = $('#event-day');
   var $eventRules = $('#event-rules');
   var $eventStaff = $('#event-staff');
   var $eventStud = $('#event-student');
-
   var $eventDetails = $('.event-details');
   var $eventDetailsHeader = $('.details-header');
-  var $headerNav = $('header.navbar')
+  var $headerNav = $('header.navbar');
+  var $reg = $('.reg');
+  var $regForm = $('#reg-form');
+  var $regBtn = $('#reg-btn');
+  var $modalForm = $('.modal-body.form');
+  var $modalSuccess = $('.modal-body.success');
+  var $name = $('#name');
+  var $college = $('#college');
+  var $phone = $('#phone');
 
   $('.event-card').click(function() {
     window.location.hash = "details";
 
-    var type = $(this).attr('data-type');
+    type = $(this).attr('data-type');
     var num = $(this).attr('data-event');
     var event = events[type].events[num];
+    eventTitle = event.title;
 
     $eventTitle.html(event.title);
     if(event.short_desc)
@@ -34,6 +38,8 @@ $(document).ready(function() {
     else
       $eventSub.html('');
     $eventImg.attr('src', 'img/' + event.img);
+
+    $eventDay.html(event.day);
 
     var rules = '';
     for(var i = 0; i < event.rules.length; i++) {
@@ -64,6 +70,45 @@ $(document).ready(function() {
     $eventDetailsHeader.addClass('down');
   });
 
+  $('#event-reg').click(function() {
+    $reg.show();
+    setTimeout(function() {
+      $reg.addClass('show');
+    }, 100);
+  });
+
+  $('.reg-close').click(function() {
+    $reg.removeClass('show');
+    $regForm[0].reset();
+    $regBtn.html('Register');
+    $regBtn.attr('disabled', false);
+    $modalForm.show();
+    $modalSuccess.hide();
+    setTimeout(function() {
+      $reg.hide();
+    }, 300);
+  });
+
+  $regForm.submit(function(e) {
+    e.preventDefault();
+    $regBtn.html('Registering...');
+    $regBtn.attr('disabled', true);
+    $.post('register.php', {
+      event: eventTitle,
+      dept: type,
+      name: $name.val(),
+      college: $college.val(),
+      phone: $phone.val()
+    }, function(data) {
+      console.log(data);
+      if(!data.err) {
+        history.back();
+        $modalForm.hide();
+        $modalSuccess.show();
+      }
+    });
+  });
+
   $('.details-header .back-btn').click(function() {
     history.back();
   });
@@ -76,7 +121,8 @@ $(document).ready(function() {
     }
   });
 
-  $('.navbar-toggler').click(function(){
+  $('.navbar-toggler').click(function(e){
+    e.preventDefault();
     toggleMenu();
   });
 });

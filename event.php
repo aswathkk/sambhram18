@@ -65,10 +65,15 @@
             <img id="event-img" class="img-fluid" src="">
           </div>
           <div class="col-sm-6 event-data">
-            <h4><span id="event-title">Event Name</span> <span id="event-sub"></span></h4>
+            <h4><span class="event-title">Event Name</span> <span id="event-sub"></span></h4>
+            <span id="event-day">#DAY</span>
             <hr/>
             <h5>Rules</h5>
             <ul id="event-rules"></ul>
+            <hr/>
+            <p class="text-center">
+              <button id="event-reg" class="btn btn-info btn-sm">Register</button>
+            </p>
             <hr/>
             <h5>Staff Coordinator</h5>
             <ul id="event-staff"></ul>
@@ -141,6 +146,40 @@
       </div>
     </div>
 
+    <div class="reg modal fade">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Register for <span class="event-title"></span></h5>
+            <button type="button" class="close reg-close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body form">
+            <form id="reg-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Full Name" id="name" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="College" id="college" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Phone Number" id="phone" />
+              </div>
+              <hr />
+              <button type="submit" id="reg-btn" class="btn btn-primary ml-2 float-right">Register</button>
+              <button type="button" class="btn btn-secondary reg-close float-right">Close</button>
+            </form>
+          </div>
+          <div class="modal-body success" style="display: none">
+            Registratered. 😀
+            <hr />
+            <button type="button" class="btn btn-secondary reg-close float-right">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="ripple-wrapper">
       <div class="ripple"></div>
     </div>
@@ -151,7 +190,9 @@
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>-->
     <!--<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>-->
     <script src="js/ripple.js"></script>
-
+    <script>
+    var events = <?php echo $json_str; ?>
+    </script>
     <script src="js/event.js"></script>
   </body>
 </html>

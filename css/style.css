@@ -81,7 +81,7 @@ header.navbar {
 
 header.navbar a {
   color: #fff;
-  font: 1.25rem 'Ruslan Display', cursive;
+  font: 1rem 'Amarillo', cursive;
   font-weight: bold;
 }
 
@@ -557,9 +557,13 @@ footer {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.reg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 @font-face {
   font-family: 'Amarillo';
-  src: local('Amarillo'), url('../fonts/Amarillo.ttf');
+  src: local('Amarillo') format('ttf'), url('../fonts/Amarillo.ttf') format('ttf');
 }
 
 @media (max-width: 575.99px) {
@@ -568,16 +572,21 @@ footer {
   }
 
   #hero h1 {
-    font-size: 28pt;
+    font-size: 44pt;
   }
 
   #hero .tagline {
-    right: -3em;
-    top: -0.6em;
+    right: -7em;
+    top: -1em;
+    font-size: 0.8rem;
   }
 
   .countdown {
     padding: 1rem 0;
+  }
+
+  header.navbar a {
+    font-size: 1.2rem;
   }
 }
 
