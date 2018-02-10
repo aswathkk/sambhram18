@@ -166,6 +166,9 @@
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Phone Number" id="phone" />
               </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Team Members if any" id="members" />
+              </div>
               <hr />
               <button type="submit" id="reg-btn" class="btn btn-primary ml-2 float-right">Register</button>
               <button type="button" class="btn btn-secondary reg-close float-right">Close</button>

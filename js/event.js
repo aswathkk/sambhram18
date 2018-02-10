@@ -23,6 +23,7 @@ $(document).ready(function() {
   var $name = $('#name');
   var $college = $('#college');
   var $phone = $('#phone');
+  var $members = $('#members');
 
   $('.event-card').click(function() {
     window.location.hash = "details";
@@ -98,7 +99,8 @@ $(document).ready(function() {
       dept: type,
       name: $name.val(),
       college: $college.val(),
-      phone: $phone.val()
+      phone: $phone.val(),
+      members: $members.val()
     }, function(data) {
       console.log(data);
       if(!data.err) {
