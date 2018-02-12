@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#02b3e4">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="A national level Technical, Management and Cultural fest organized by Shree Devi Institute of Technology. Collect and rekinde the strength, creativity, skills and all that which will lead you to the Zenith.">
+    <meta name="keywords" content="Shreedevi, Sambhram, Sambhram 2018, Shreedevi SAmbhram, Mangalore, Tech Fest, Cultural Fest, Mangalore Fest, College Fest" />
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -12,6 +14,15 @@
     
     <link rel="stylesheet" href="css/style.css">
     <title>Sambhram 18</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113952220-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-113952220-1');
+    </script>
+
   </head>
   <body>
 
@@ -34,15 +45,10 @@
     </div>
 
     <div id="hero">
-      <div class="container-fluid full-height">
+      <div data-depth="1" class="container-fluid full-height">
         <div class="row align-items-center full-height">
-          <div class="col-12" data-depth="1">
-            <h5>Shree Devi Institute of Technology</h5>
-            <h6>Presents</h6>
-            <h1>Sambhram '18</h1>
-            <p class="tagline">Symphony of celebrations</p>
-            <div>A National level Technical & Cultural fest</div>
-            <p class="date">22<sup>nd</sup> & 23<sup>rd</sup> Feb.</p>
+          <div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 p-0">
+            <img src="img/koppile_hero.jpg" class="img-fluid" usemap="#planetmap" />
           </div>
         </div>
       </div>
@@ -71,7 +77,23 @@
       </div>
     </section>
 
-    <section class="container py-5">
+    <section class="about py-5 mt-5 text-justify">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pb-5">
+            <h2 class="mb-3 section-title"><span>O</span>ur Institute</h2>
+            <p>Shree Devi Institute of Technology, Kenjar, Mangaluru affiliated to Vishvesvaraya Technological University, Belgaum recognized by All India Council for Technical Education (AICTE), New Delhi was established by Shree Devi Education Trust Mangaluru in the year 2006. Our Institution's aim to provide students with a rich and prosperous learning environment so that they acquire knowledge and skills needed for succeeding in their professional as well as personal lives. This Institute offers students the opportunities to pursue Engineering Management and Computer Studies in the ambience of natural beauty. A team of dedicated faculty, a brilliant student community, excellent technical and supporting staff and an effective administration have all contributed to the pre-eminent status of Shree Devi Institute of Technology.</p>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="mb-3 section-title"><span>S</span>hree Devi Sambhram</h2>
+            <p>SHREE DEVI SAMBHRAM'18, a national level Technical, Management and Cultural fest organized by Shree Devi Institute of Technology is scheduled to be held on 22nd and 23rd of February 2018 at SDIT campus, Airport road, Kenjar, Mangaluru. This technical and cultural extravaganza gives an opportunity to collect and rekinde the strength, creativity, skills and all that which will lead you to the Zenith. The two day fest is meant to usher fresh ideas and redefine the dimensions of knowledge. Shree Devi Sambram’18 host a galaxy of events aimed at boosting the technical skills inherent in today’s youth. With a plethora of technical and cultural events waiting to be explored and unraveled, this is the ultimate place to rediscover one self. This forms the heart and soul of the festival and seeks to provide a common platform for the best brains interact and nurture their ideas and transforming them to reality. Our aim is simple, explore and exhibit talents. We aim to help students to come out as a pioneer with the social and professional values which are vital for technical excellence.</p>
+          </div>
+          <div class="col-sm-12"><hr/></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container pb-5">
       <div class="row">
 
         <div class="col-sm-12">
@@ -133,15 +155,20 @@
       </div>-->
        <!--TODO: uncomment -->
       <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB3ZOKnpSHG1iJY7TVh68f2OYMTSSKaa5k&q=Shree+Devi+Institute+of+Technology" allowfullscreen></iframe>
+      <!--<div id="map"></div>-->
     </section>
 
     <section class="app">
       <div class="container-fluid">
         <div class="row">
           <div class="col">
+            <a class="download" href="files/Broucher.pdf">
+              Download Brochure
+            </a>
+          </div>
+          <div class="col">
             <a class="download" href="#">
-              <img src="img/android.svg" />
-              Download App
+              Download Schedule
             </a>
           </div>
         </div>
@@ -173,5 +200,18 @@
 
     <script src="js/ripple.js"></script>
     <script src="js/main.js"></script>
+
+    <!--<script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3ZOKnpSHG1iJY7TVh68f2OYMTSSKaa5k&callback=initMap"
+    async defer></script>-->
   </body>
 </html>

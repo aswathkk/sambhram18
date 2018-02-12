@@ -100,7 +100,7 @@
           {"name": "Mr Rohan D S", "phone": "9535645357"}
         ],
         "student_coordinator": [
-          {"name": "Aswath K", "phone": "8075101002"},
+          {"name": "Aswath K", "phone": "9995575817"},
           {"name": "Mudassir H", "phone": "9481563548"}
         ],
         "img": "webmasters.jpg",
@@ -404,8 +404,8 @@
           {"name": "Sreelakshmi"}
         ],
         "student_coordinator": [
-          {"name": "Sudharshan", "phone": "7899785606"},
-          {"name": "Sirfraj", "phone": "9986821098"}
+          {"name": "Rakesh B", "phone": "8867640912"},
+          {"name": "Shwetha T", "phone": "8884608738"}
         ],
         "img": "rc_flying.jpg",
         "day": "Day 1",
@@ -445,7 +445,7 @@
         ],
         "student_coordinator": [
           {"name": "Yashwanth", "phone": "9741796020"},
-          {"name": "Sachin", "phone": "8970013808"}
+          {"name": "Sachin", "phone": "9620576638"}
         ],
         "img": "paper_plane.jpg",
         "day": "Day 1",
@@ -504,7 +504,7 @@
           "Maximum of 3 members per team is allowed.",
           "1st round - Prelims 25 questions. Duration is 30 minutes.",
           "2nd round - Quibble. Duration is 30 minutes.",
-          "3rd round - Trouble shooting. Duration is 30 minutes (HDL or MATLAB)"
+          "3rd round - Trouble shooting. Duration is 60 minutes (HDL or MATLAB)"
         ],
         "staff_coordinator": [
           {"name": "Mrs Shrividya", "phone": "9741851721"}
@@ -513,7 +513,7 @@
           {"name": "Shaguftha Nargis", "phone": "9110437658"},
           {"name": "Ninada K C", "phone": "9148534710"}
         ],
-        "img": "default.svg",
+        "img": "tech_excellence.jpg",
         "day": "Day 1",
         "time": "10:00 AM"
       },
@@ -562,7 +562,7 @@
         "rules": [
           "Paper should be in IEEE format. Not more than 6 pages.",
           "Maximum number of in a team is 2.",
-          "Abstract of the paper must be mailed to SAMBHRAM2018EC@GMAIL.COM on or before 19/2/2018.",
+          "Abstract of the paper must be mailed to SAMBHARAM2018EC@GMAIL.COM on or before 19/2/2018.",
           "Soft copies of the submitted paper should be in .DOCX or .PDF format and should have 2 hard copies.",
           "Presentation time will be 10 + 2 min."
         ],

@@ -2,7 +2,7 @@ $(document).ready(function() {
   particlesJS('particles', {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 40,
         "density": {
           "enable": true,
           "value_area": 800
@@ -15,7 +15,7 @@ $(document).ready(function() {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#ff0000"
         }
       },
       "opacity": {
@@ -102,7 +102,7 @@ $(document).ready(function() {
     "retina_detect": true
   });
 
-  var hero = $('#hero .row').get(0);
+  var hero = $('#hero').get(0);
   var parallax = new Parallax(hero, {
     hoverOnly: true
   });

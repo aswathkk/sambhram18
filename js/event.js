@@ -52,7 +52,7 @@ $(document).ready(function() {
     for(var i = 0; i < event.staff_coordinator.length; i++) {
       staff += '<li>' + event.staff_coordinator[i].name;
       if(event.staff_coordinator[i].phone)
-        staff += ' (' + event.staff_coordinator[i].phone + ')';
+        staff += ' (<a href="tel:' + event.staff_coordinator[i].phone + '">' + event.staff_coordinator[i].phone + '</a>)';
       staff += '</li>';
     }
     $eventStaff.html(staff);
@@ -61,7 +61,7 @@ $(document).ready(function() {
     for(var i = 0; i < event.student_coordinator.length; i++) {
       stud += '<li>' + event.student_coordinator[i].name;
       if(event.student_coordinator[i].phone)
-        stud += ' (' + event.student_coordinator[i].phone + ')';
+        stud += ' (<a href="tel:' + event.student_coordinator[i].phone + '">' + event.student_coordinator[i].phone + '</a>)';
       stud += '</li>';
     }
     $eventStud.html(stud);

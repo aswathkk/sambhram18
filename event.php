@@ -16,7 +16,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#02b3e4">
+    <meta name="theme-color" content="#000000">
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -26,6 +26,15 @@
     
     <link rel="stylesheet" href="css/style.css">
     <title><?php echo $shortName; ?> Events - Sambhram 2018</title>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113952220-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-113952220-1');
+    </script>
+
   </head>
   <body>
 
@@ -43,11 +52,11 @@
       </div>
     </div>
 
-    <header class="navbar sticky-top navbar-dark">
-      <button class="navbar-toggler" type="button">
+    <header class="navbar sticky-top navbar-dark text-center">
+      <button class="navbar-toggler float-left" type="button">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a href="/" class="navbar-brand" href="#">Sambhram</a>
+      <a href="/" href="#"><img src="img/header.jpg"/></a>
     </header>
 
     <div class="details-header">
@@ -91,7 +100,7 @@
         <div class="row">
         
           <div class="col-sm-12">
-            <h2 class="section-title"><span>E</span>vents</h2>
+            <h2 class="section-title events"><span>E</span>vents</h2>
           </div>
 <?php foreach ($events as $i => $event) { ?>
 
