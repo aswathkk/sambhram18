@@ -3,8 +3,6 @@ $(document).ready(function() {
   $('.events').addClass('up');
   $('header.navbar').show();
 
-  $('.lripple').ripple();
-
   var $eventTitle = $('.event-title');
   var $eventSub = $('#event-sub');
   var $eventImg = $('#event-img');

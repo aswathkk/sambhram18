@@ -102,17 +102,15 @@ $(document).ready(function() {
     "retina_detect": true
   });
 
-  var hero = $('#hero').get(0);
-  var parallax = new Parallax(hero, {
-    hoverOnly: true
-  });
+  // var hero = $('.rotor').get(0);
+  // var parallax = new Parallax(hero, {
+  //   hoverOnly: true
+  // });
 
   $('.countdown').downCount({
       date: '02/22/2018 09:00:00',
       offset: '+5.50',
   });
-
-  // $('.event-item').ripple();
 
   var $ripple = $('.ripple');
   var $rippleWrapper = $('.ripple-wrapper');
@@ -147,4 +145,56 @@ $(document).ready(function() {
     }, 1000);
   });
 
+  var ang = 60;
+  var $rotor = $('.rotor');
+  
+  $('.event-btn.prev').click(prev);
+  $('.event-btn.next').click(next);
+
+  function next() {
+    ang += 60;
+    $rotor.css({
+      "-webkit-transform": "rotateY(" + ang + "deg)",
+      "-moz-transform": "rotateY(" + ang + "deg)",
+      "-o-transform": "rotateY(" + ang + "deg)",
+      "transform": "rotateY(" + ang + "deg)"
+    });
+  }
+
+  function prev() {
+    ang -= 60;
+    $rotor.css({
+      "-webkit-transform": "rotateY(" + ang + "deg)",
+      "-moz-transform": "rotateY(" + ang + "deg)",
+      "-o-transform": "rotateY(" + ang + "deg)",
+      "transform": "rotateY(" + ang + "deg)"
+    });
+  }
+
+  setTimeout(function() {
+    prev();
+    setInterval(prev, 5000);
+  }, 2000);
+
+  $('.navbar-toggler').click(function(e){
+    e.preventDefault();
+    toggleMenu();
+  });
+
 });
+
+var menuState = false;
+
+function toggleMenu() {
+  if(menuState) {
+    $('.menu').addClass('hide');
+    setTimeout(function() {
+      $('.menu').hide();
+    }, 600);
+    menuState = false;
+  } else {
+    $('.menu').show();
+    $('.menu').removeClass('hide');
+    menuState = true;
+  }
+}

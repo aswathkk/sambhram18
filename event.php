@@ -18,10 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
 
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!--<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">-->
-    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/ripple.css">
     
     <link rel="stylesheet" href="css/style.css">
@@ -184,7 +181,7 @@
             </form>
           </div>
           <div class="modal-body success" style="display: none">
-            Registratered. 😀
+            Registered. 😀
             <hr />
             <button type="button" class="btn btn-secondary reg-close float-right">Close</button>
           </div>
@@ -196,12 +193,7 @@
       <div class="ripple"></div>
     </div>
 
-    <!-- TODO: use CDN -->
-    <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
-    <script src="js/jquery.js"></script>
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>-->
-    <!--<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>-->
-    <script src="js/ripple.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
     var events = <?php echo $json_str; ?>
     </script>

@@ -14,7 +14,6 @@ html, body {
 
 #particles {
   position: fixed;
-  z-index: 1;
   top: 0;
   right: 0;
   bottom: 0;
@@ -29,46 +28,12 @@ html, body {
   position: relative;
 }
 
-#hero svg#foreground {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  display: none;
+#hero .medha {
+  cursor: pointer;
 }
 
-#hero h1 {
-  font: 40pt 'Amarillo', cursive;
-  font-weight: bold;
-  margin-top: 1em;
-}
-
-#hero h3 {
-  font-family: 'Amarillo';
-}
-
-#hero h6, #hero h5 {
-  font-weight: 100;
-  /*letter-spacing: .01em;*/
-}
-
-#hero .shree {
-  position: relative;
-  left: -13em;
-  bottom: -1em;
-}
-
-#hero .tagline {
-  position: relative;
-  top: -0.6em;
-  right: -9em;
-  font-size: 17.6px;
-  font-size: 1.1rem;
-}
-
-#hero .date {
-  margin-top: 1em;
+#hero .medha:hover {
+  transform: scale(1.2);
 }
 
 .link {
@@ -107,12 +72,12 @@ html, body {
 
 header.navbar {
   background: #040708;
-  display: none;
 }
 
 header.navbar a {
   color: #fff;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .event-loading {
@@ -253,7 +218,7 @@ header.navbar a {
 
 .event-item {
   height: 16em;
-  background: rgba(10,49,61,.9);
+  background: rgba(10,49,61,.5);
   color: #02B3E4;
   border: none;
   text-align: center;
@@ -274,6 +239,113 @@ header.navbar a {
           transform: translateZ(0);
   position: relative;
   z-index: 10;
+}
+
+.event-container {
+  position: relative;
+  height: 20em;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  margin: 0 auto;
+  width: 22em;
+  margin-top: 5em;
+  z-index: 10;
+}
+.rotor {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  -o-transition: transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: rotateX(-90deg) rotateY(60deg);
+  transform: rotateX(-90deg) rotateY(60deg);
+}
+.event-panel {
+  width: 22em;
+  position: absolute;
+}
+
+@media (max-width: 575.98px) {
+  .event-container {
+    -webkit-transform: scale(0.45);
+        -ms-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-perspective: 850px;
+            perspective: 850px;
+    margin-top: 0em;
+  }
+  .event-btn {
+    margin-top: 0em;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media (min-width: 576px) {
+  .event-container {
+    -webkit-transform: scale(0.65);
+        -ms-transform: scale(0.65);
+            transform: scale(0.65);
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+  }
+  .event-btn {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+    .event-container {
+      -webkit-transform: scale(0.75);
+          -ms-transform: scale(0.75);
+              transform: scale(0.75);
+      -webkit-perspective: 1000px;
+              perspective: 1000px;
+    }
+    .event-btn {
+      margin-top: 2em;
+    }
+}
+
+@media (min-width: 992px) {
+    .event-container {
+      -webkit-transform: scale(0.85);
+          -ms-transform: scale(0.85);
+              transform: scale(0.85);
+      -webkit-perspective: 1000px;
+              perspective: 1000px;
+    }
+    .event-btn {
+      margin-top: 3em;
+    }
+}
+
+.event-btn {
+  background: rgba(10,49,61,.9);
+  -webkit-box-shadow: 0 0 14px 4px rgba(154,225,244,.8);
+          box-shadow: 0 0 14px 4px rgba(154,225,244,.8);
+  width: 2.5em;
+  height: 2.5em;
+  display: inline-block;
+  border-radius: 100%;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.4em;
+  text-align: center;
+}
+
+.event-btn:hover {
+  -webkit-box-shadow: 0 0 14px 6px rgba(154,225,244,.8);
+          box-shadow: 0 0 14px 6px rgba(154,225,244,.8);
 }
 
 .events {
@@ -451,6 +523,8 @@ header.navbar a {
 .event-item:hover {
   -webkit-transform: scale(1.07);
           transform: scale(1.07);
+  background: rgba(10,49,61,0.9);
+  box-shadow: 0 0 23px 10px rgba(154,225,244,.8);
 }
 
 .event-item h4, .event-loading h4 {

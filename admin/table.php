@@ -14,7 +14,7 @@
                         echo "CS / IS Events";
                       else if($dept == 'cv')
                         echo "Civil Engineering Events";
-                      else if($dept == 'ec')
+                      else if($dept == 'ece')
                         echo "E & C Events";
                       else if($dept == 'me')
                         echo "Mechanical Engineering Events";
@@ -28,6 +28,7 @@
                         <thead>
                             <th>#</th>
                             <th>Name</th>
+                            <th>College</th>
                             <th>Phone</th>
                             <th>Members</th>
                             <th>Event</th>
@@ -42,6 +43,7 @@
                             <tr>
                                 <td><?php echo ++$i; ?></td>
                                 <td><?php echo $row['name']; ?></td>
+                                <td><?php echo $row['college']; ?></td>
                                 <td><?php echo $row['phone']; ?></td>
                                 <td><?php echo $row['members']; ?></td>
                                 <td><?php echo $row['event']; ?></td>

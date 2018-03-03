@@ -760,7 +760,7 @@
         ],
         "student_coordinator": [
           {"name": "Ms Rebecca", "phone": "8277346169"},
-          {"name": "Mr Prithvi", "phone": "7899501450"}
+          {"name": "Ms Prithvi", "phone": "7899501450"}
         ],
         "img": "cosplay.jpg",
         "day": "Day 2",
@@ -874,6 +874,7 @@
         "short_desc": "Lip Sync Battle",
         "rules": [
           "4 make a team.",
+          "Participants have to come prepared for a song of their choice.",
           "The maximum time limit is 4 minutes per performance. After 4 minutes the music will be fade out.",
           "Teams may use props.",
           "Prelims will be conducted if necessary."

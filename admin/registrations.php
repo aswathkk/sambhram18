@@ -94,7 +94,7 @@
                   <a class="nav-link" id="cv-tab" data-toggle="tab" href="#cv" role="tab" aria-controls="cv" aria-selected="false">CV (<?php echo countNum('cv'); ?>)</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="ec-tab" data-toggle="tab" href="#ec" role="tab" aria-controls="ec" aria-selected="false">EC (<?php echo countNum('ec'); ?>)</a>
+                  <a class="nav-link" id="ec-tab" data-toggle="tab" href="#ec" role="tab" aria-controls="ec" aria-selected="false">EC (<?php echo countNum('ece'); ?>)</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="me-tab" data-toggle="tab" href="#me" role="tab" aria-controls="me" aria-selected="false">ME (<?php echo countNum('me'); ?>)</a>
@@ -107,7 +107,7 @@
                 <div class="tab-pane fade show active" id="ae" role="tabpanel" aria-labelledby="ae-tab"><?php $dept="ae"; include('table.php');?></div>
                 <div class="tab-pane fade" id="cse" role="tabpanel" aria-labelledby="cse-tab"><?php $dept="cse"; include('table.php');?></div>
                 <div class="tab-pane fade" id="cv" role="tabpanel" aria-labelledby="cv-tab"><?php $dept="cv"; include('table.php');?></div>
-                <div class="tab-pane fade" id="ec" role="tabpanel" aria-labelledby="ec-tab"><?php $dept="ec"; include('table.php');?></div>
+                <div class="tab-pane fade" id="ec" role="tabpanel" aria-labelledby="ec-tab"><?php $dept="ece"; include('table.php');?></div>
                 <div class="tab-pane fade" id="me" role="tabpanel" aria-labelledby="me-tab"><?php $dept="me"; include('table.php');?></div>
                 <div class="tab-pane fade" id="cul" role="tabpanel" aria-labelledby="cul-tab"><?php $dept="cul"; include('table.php');?></div>
               </div>

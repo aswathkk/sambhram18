@@ -5,13 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <meta name="description" content="A national level Technical, Management and Cultural fest organized by Shree Devi Institute of Technology. Collect and rekinde the strength, creativity, skills and all that which will lead you to the Zenith.">
-    <meta name="keywords" content="Shreedevi, Sambhram, Sambhram 2018, Shreedevi SAmbhram, Mangalore, Tech Fest, Cultural Fest, Mangalore Fest, College Fest" />
+    <meta name="keywords" content="Shreedevi, Sambhram, Sambhram 2018, Shreedevi Sambhram, Mangalore, Tech Fest, Cultural Fest, Mangalore Fest, College Fest" />
 
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!--<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ruslan+Display" rel="stylesheet">-->
-    <link rel="stylesheet" href="css/ripple.css">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Sambhram 18</title>
 
@@ -44,18 +40,27 @@
       <div id="particles"></div>
     </div>
 
+    <header class="navbar sticky-top navbar-dark text-center">
+      <button class="navbar-toggler float-left" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <li class="nav-item">
+        <a class="nav-link" href="#events">Register</a>
+      </li>
+    </header>
+
     <div id="hero">
-      <div data-depth="1" class="container-fluid full-height">
-        <div class="row align-items-center full-height">
+      <div data-depth="1" class="container-fluid">
+        <div class="row">
           <div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 p-0">
-            <img src="img/koppile_hero.jpg" class="img-fluid" usemap="#planetmap" />
+            <img src="img/koppile_hero.png" class="img-fluid" />
           </div>
         </div>
       </div>
     </div>
 
     <section class="countdown">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-3">
             <div class="time days">00</div>
@@ -93,69 +98,68 @@
       </div>
     </section>
 
-    <section class="container pb-5">
+    <section id="events" class="container pb-5">
       <div class="row">
 
         <div class="col-sm-12">
           <h2 class="section-title"><span>E</span>vents</h2>
         </div>
 
-        <div class="col-md-4 col-sm-6">
-          <div class="event-item" data-type="ae">
-            <img src="img/ae.svg" alt="Aeronautical Engineering">
-            <h4>Aeronautical Engineering</h4>
+        <div class="col-sm-12">
+          <div class="event-container">
+            <div class="rotor">
+              <div class="event-panel" style="transform: rotateY(0deg) translateZ(22em);">
+                <div class="event-item" data-type="ae">
+                  <img src="img/ae.svg" alt="Aeronautical Engineering">
+                  <h4>Aeronautical Engineering</h4>
+                </div>
+              </div>
+              <div class="event-panel" style="transform: rotateY(60deg) translateZ(22em);">
+                <div class="event-item" data-type="cv" >
+                  <img src="img/cv.svg" alt="Civil Engineering">
+                  <h4>Civil Engineering</h4>
+                </div>
+              </div>
+              <div class="event-panel" style="transform: rotateY(120deg) translateZ(22em);">
+                <div class="event-item" data-type="cse">
+                  <img src="img/cse.svg" alt="Computer Science & Engineering">
+                  <h4>Computer Science & Engineering</h4>
+                </div>
+              </div>
+              <div class="event-panel" style="transform: rotateY(180deg) translateZ(22em);">
+                <div class="event-item" data-type="ece">
+                  <img src="img/ece.svg" alt="Electronics & Communication Engineering">
+                  <h4>Electronics & Communication Engineering</h4>
+                </div>
+              </div>
+              <div class="event-panel" style="transform: rotateY(240deg) translateZ(22em);">
+                <div class="event-item" data-type="me">
+                  <img src="img/me.svg" alt="Mechanical Engineering">
+                  <h4>Mechanical Engineering</h4>
+                </div>
+              </div>
+              <div class="event-panel" style="transform: rotateY(300deg) translateZ(22em);">
+                <div class="event-item" data-type="cul">
+                  <img src="img/cul.svg" alt="Cultural Events">
+                  <h4>Cultural Events</h4>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
-          <div class="event-item" data-type="cv">
-            <img src="img/cv.svg" alt="Civil Engineering">
-            <h4>Civil Engineering</h4>
-          </div>
+        <div class="col-6 text-right">
+          <div class="event-btn prev"><img src="img/left.svg"/></div>
         </div>
-
-        <div class="col-md-4 col-sm-6">
-          <div class="event-item" data-type="cse">
-            <img src="img/cse.svg" alt="Computer Science & Engineering">
-            <h4>Computer Science & Engineering</h4>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6">
-          <div class="event-item" data-type="ece">
-            <img src="img/ece.svg" alt="Electronics & Communication Engineering">
-            <h4>Electronics & Communication Engineering</h4>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6">
-          <div class="event-item" data-type="me">
-            <img src="img/me.svg" alt="Mechanical Engineering">
-            <h4>Mechanical Engineering</h4>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6">
-          <div class="event-item" data-type="cul">
-            <img src="img/cul.svg" alt="Cultural Events">
-            <h4>Cultural Events</h4>
-          </div>
+        <div class="col-6">
+          <div class="event-btn next"><img src="img/right.svg"/></div>
         </div>
 
       </div>
     </section>
 
     <section>
-      <!--<div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="section-title"><span>L</span>ocation</h2>
-          </div>
-        </div>
-      </div>-->
-       <!--TODO: uncomment -->
       <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB3ZOKnpSHG1iJY7TVh68f2OYMTSSKaa5k&q=Shree+Devi+Institute+of+Technology" allowfullscreen></iframe>
-      <!--<div id="map"></div>-->
     </section>
 
     <section class="app">
@@ -167,7 +171,7 @@
             </a>
           </div>
           <div class="col">
-            <a class="download" href="#">
+            <a class="download" href="files/sambhram18-venues.pdf">
               Download Schedule
             </a>
           </div>
@@ -185,33 +189,42 @@
       </div>
     </footer>
 
+    <div class="menu hide" style="display: none;">
+      <button class="navbar-toggler"><img src="img/close.svg"/></button>
+      <div class="container-fluid full-height">
+        <div class="row text-center full-height align-items-center">
+          <a href="event.php?type=ae" class="col-md-2">
+            <span>AE</span>
+          </a>
+          <a href="event.php?type=cse" class="col-md-2">
+            <span>CS/IS</span>
+          </a>
+          <a href="event.php?type=cv" class="col-md-2">
+            <span>CV</span>
+          </a>
+          <a href="event.php?type=ece" class="col-md-2">
+            <span>EC</span>
+          </a>
+          <a href="event.php?type=me" class="col-md-2">
+            <span>ME</span>
+          </a>
+          <a href="event.php?type=cul" class="col-md-2">
+            <span>Culturals</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="ripple-wrapper">
       <div class="ripple"></div>
     </div>
 
     <!-- TODO: use CDN -->
-    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>-->
-    <script src="js/jquery.js"></script>
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>-->
-    <!--<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>-->
-    <script src="js/particles.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/downCount.js"></script>
     <script src="js/parallax.min.js"></script>
 
-    <script src="js/ripple.js"></script>
     <script src="js/main.js"></script>
-
-    <!--<script>
-      function initMap() {
-        // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3ZOKnpSHG1iJY7TVh68f2OYMTSSKaa5k&callback=initMap"
-    async defer></script>-->
   </body>
 </html>
